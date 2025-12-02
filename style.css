@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+header { display:flex; justify-content:space-between; align-items:center; }
+.flashes { list-style:none; padding:0; }
+.habits ul { list-style: none; padding-left: 0; }
+.habits li { padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 6px; }
+#reminder-popup { position: fixed; right: 20px; bottom: 20px; background: white; border:1px solid #ccc; padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+#reminder-popup.hidden { display:none; }
+.popup-inner button { margin-right: 8px; }
+.achievement { color: green; font-weight:bold; margin-left:10px; }
